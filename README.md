@@ -1,3 +1,6 @@
+# Favorite film is stored in the local storage of the browser
+
+The user can add a new favorite film by clicking on the heart icon
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
