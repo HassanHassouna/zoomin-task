@@ -41,11 +41,13 @@ function ChosenFilmDetails({ chosenFilm }) {
             {isLiked ? (
               <AiFillHeart
                 className="heart"
+                size={30}
                 onClick={() => handleLike(chosenFilm)}
               />
             ) : (
               <AiOutlineHeart
                 className="heart"
+                size={30}
                 onClick={() => handleLike(chosenFilm)}
               />
             )}
