@@ -11,4 +11,23 @@
   flex-direction: column;
   overflow: scroll;
   height: 100%;
+  padding: 10px;
+}
+.first_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heart {
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .cfd_container {
+    height: 400px;
+    width: 90vw;
+  }
+  .cfd_film_details {
+    padding: 10px;
+  }
 }
